@@ -7,22 +7,22 @@ namespace Sandbox
 {
     abstract class Employee
     {
-        private String name;
+        private String name; //instance field
 
-        public Employee(String name)
+        public Employee(String name) //constructor
         {
             this.name = name;
         }
 
-        public String GetName()
+        public String GetName() //metode
         {
             return name;
         }
 
-        public abstract int GetSalaryPerMonth();
+        public abstract int GetSalaryPerMonth(); //abstrakte metoder
 
-        public abstract int GetBonusPerMonth();
+        public abstract int GetBonusPerMonth(); //abstrakte metoder
 
-        public abstract bool IsBonusPaidOut();
+        public abstract bool IsBonusPaidOut(); //abstrakte metoder
     }
 }
