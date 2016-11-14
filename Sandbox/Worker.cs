@@ -8,7 +8,9 @@ namespace Sandbox
     class Worker : Employee
 
     {
-        
+        private int hourlyPay;
+        private int hoursWorked;
+
 
         public Worker(string name) : base(name)
         {
